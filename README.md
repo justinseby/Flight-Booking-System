@@ -26,3 +26,36 @@ This project is a flight ticket booking system in which users can book or cancel
 * For details on installation of STS IDE, Click on https://www.javatpoint.com/spring-boot-download-and-install-sts-ide 
 * To download PostgreSQL Server, Click on https://www.postgresql.org/download/
 * To download Postman for testing, Click on https://www.postman.com/downloads/
+
+## Code Examples
+
+To update flight
+public AddNewFlight updateFlight(AddNewFlight addNewFlight) {
+		FlightEntity flight1 = new FlightEntity();
+		flight1 = flightDAO.findByFlightName(addNewFlight.getFlightName());
+		flight1.setFlightName(addNewFlight.getFlightName());
+		flightDAO.save(flight1);
+		return addNewFlight;
+	} 
+	The service implementation for delete flight
+	public String delete(String flightName) {
+		String message = null;
+		FlightEntity flight1 = new FlightEntity();
+		flight1 = flightDAO.findByFlightName(flightName);
+		if ( flight1.getFlightName().equals(flightName)){
+			message = flight1.getFlightName() + " has been deleted successfully";
+			flightDAO.delete(flight1);
+		}
+		return message;
+	}
+  
+  ## Features
+List of features ready aare as follows:
+* User can register with the application and can login with password.
+* User can view/update their account details and can delete their account.
+* Users can view and select various flights and airlines and book their tickets with desired number of seats. They can also cancel their booking.
+* Admin can add/delete/update new flights, trips and airlines.
+
+
+## Inspiration
+Project based on assignment request on Spring Microservices.
