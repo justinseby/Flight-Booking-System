@@ -6,7 +6,7 @@ Online flight booking software that helps the users to book and view flights wit
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
+* [Code Examples](#codeexamples)
 * [Contact](#contact)
 
 ## General info
@@ -59,3 +59,6 @@ List of features ready aare as follows:
 
 ## Inspiration
 Project based on assignment request on Spring Microservices.
+
+## Contact
+created by [@justinseby] - feel free to contact me
