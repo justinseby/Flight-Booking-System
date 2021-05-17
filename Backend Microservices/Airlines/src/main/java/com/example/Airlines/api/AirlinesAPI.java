@@ -39,7 +39,6 @@ public class AirlinesAPI {
 	public List<AirlinesDTO> getAirlinesDetails(@PathVariable String airlinesName) {
 
 		logger.info("Airlinesdetails request for user {}", airlinesName);
-
 		return airlinesService.getAirlinesDetails(airlinesName);
 	} 
 	
