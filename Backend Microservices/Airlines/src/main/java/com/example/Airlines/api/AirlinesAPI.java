@@ -62,4 +62,3 @@ public class AirlinesAPI {
 		return message;
 	} 
 }
-
