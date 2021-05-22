@@ -26,7 +26,6 @@ public class AirlinesAPI {
 
 	@Autowired
 	AirlinesService airlinesService;
-	
 	//fetches all airliness
 		@RequestMapping(value = "/getallairliness", method = RequestMethod.GET)
 	    public List<AirlinesEntity> allAirliness(AirlinesDTO model) {
