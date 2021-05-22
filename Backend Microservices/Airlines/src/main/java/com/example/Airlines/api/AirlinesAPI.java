@@ -32,7 +32,6 @@ public class AirlinesAPI {
 	    public List<AirlinesEntity> allAirliness(AirlinesDTO model) {
 	        return airlinesService.getAllAirliness();  
 	    }
-		
 	// Fetches details of a specific airlines
 	@RequestMapping(value = "/airlines/{airlinesName}/airlinesdetails", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<AirlinesDTO> getAirlinesDetails(@PathVariable String airlinesName) {
@@ -59,5 +58,5 @@ public class AirlinesAPI {
 		String message;
 		message = airlinesService.delete(airlinesName);
 		return message;
-	} 
+		} 
 }
