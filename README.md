@@ -9,6 +9,7 @@ Online flight booking software that helps the users to book and view flights wit
 * [Code Examples](#codeexamples)
 * [Contact](#contact)
 
+
 ## General info
 This project is a flight ticket booking system in which users can book or cancel tickets. They can view fligt and airline details and choose from the collection and also they are able to update their account information. The admin will be able to add, delete and update various components of the services.
 
