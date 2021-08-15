@@ -1,6 +1,5 @@
 package com.example.Flight.entity;
 
-
 import java.io.Serializable;
 import java.sql.Date;
 
