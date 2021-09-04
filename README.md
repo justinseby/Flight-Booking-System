@@ -21,6 +21,7 @@ This project is a flight ticket booking system in which users can book or cancel
 * Documentation: swagger.io 
 * API gateway: Zuul server 
 * Registry: Eureka Server 
+* 
 
 ## Setup
 * For details on installation of STS IDE, Click on https://www.javatpoint.com/spring-boot-download-and-install-sts-ide 
