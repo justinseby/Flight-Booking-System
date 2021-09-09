@@ -13,3 +13,4 @@ public interface FlightDAO extends JpaRepository<FlightEntity, Integer> {
 	FlightEntity findByFlightName(String flightName);
 	FlightEntity findByFlightId(Integer flightId);
 }
+
