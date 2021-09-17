@@ -1,6 +1,7 @@
 ## Flight-Booking-System
 Online flight booking software that helps the users to book and view flights with ease.
 
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
