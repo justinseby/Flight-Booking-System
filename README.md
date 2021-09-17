@@ -56,7 +56,6 @@ List of features ready aare as follows:
 * User can view/update their account details and can delete their account.
 * Users can view and select various flights and airlines and book their tickets with desired number of seats. They can also cancel their booking.
 * Admin can add/delete/update new flights, trips and airlines.
-
  
 ## Inspiration
 Project based on assignment request on Spring Microservices.
