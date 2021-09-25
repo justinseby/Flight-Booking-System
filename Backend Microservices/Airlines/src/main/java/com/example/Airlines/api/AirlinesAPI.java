@@ -38,6 +38,7 @@ public class AirlinesAPI {
 		logger.info("Airlinesdetails request for user {}", airlinesName);
 		return airlinesService.getAirlinesDetails(airlinesName);
 	} 
+
 	// adds new airlines
 	@PostMapping(value = "/addAirlines")
 	public AddNewAirlines addAirlines(@RequestBody AddNewAirlines addNewAirlines) {	
